@@ -1,0 +1,87 @@
+
+*{   /* asteriscos*/
+    background:#E5E5E5; /* COR PLANO DE FUNDO*/
+    font-family: 'inter', sans-serif;/* familia de fontes*/
+    font-weight: 400; /* espesura da fonte */
+    font-size: 32px; /* tamanho da fonte */
+    line-height: 150%; /* altura da linha */
+
+
+}
+.LogoAlura{
+    margin-left: 10px; /* margem esquerda*/
+    padding-top: 10px;/* preenchimento superior*/
+    width: 6%;        /* largura*/ 
+    border-radius: 50px;/* comando para ajustar as bordas da imagem logoAlura*/ 
+
+}
+main{ 
+    display: flex;/* exibiçao flexivel*/
+    margin-bottom: 50px; /* margem fundo*/
+    margin-left: 80px;    /*margem esquerda*/
+}
+.text-area {
+    border: 1px solid #0A3871; /* estilo, largura e cor da borda */
+    color: #0A3871;
+    margin-top: 1px;
+    text-transform:lowercase;
+}
+
+::placeholder{color: #0A3871} /* espaço reservado */
+         .text-area:focus{      /* area de texto */
+            outline:nome;       /* contorno nome*/ 
+         }
+         .mensagem{
+              background:white;/* cor de fundo branca*/
+              background-image: url(lupa.png);
+              background-size: 110%;
+              background-repeat:no-repeat ;/* comando para nao repetir a imagem */
+              border: nome; /* nome da borda*/
+              border-radius: 2px;/* raio da borda*/
+              margin-left: 98px; /* esquerda */
+              margin-top: 20px; /* margem superior*/
+              padding-left: 20px; /* margem esquerda*/
+              position: fixed;     /* posiçao fixa*/
+
+         }
+         .mensagem{
+            outline:nome; /* contorno do nome*/
+         }
+         .botoes{
+            display: flex; /* exibiçao flexivel*/
+            margin-top: 18px; /* margem superior */
+         }
+         .btn-desencriptar{ /* botão para desencriptar*/
+             background:#D8DFE8; /* cor de fundo*/
+            border: 1px solid #0A3871; /* borda*/ 
+            border-radius: 24px;/* raio da borda */
+            color: #0a3871; /* cor*/
+            cursor: pointer;  /* ponto de curso*/
+            height: 67px;      /* altura*/
+            margin-left:30px; /* margem esquerda */
+            width: 328px;       /* largura */
+         }
+         .btn-encriptar{       /* botão para encriptar */
+          background-color:#0A3871;   /* cor de fundo */
+          border: 1px solid #0A3871;  /* borde solido */
+          border-radius: 24px;          /* raio da borda*/
+          color: white;               /* cor*/
+          cursor: pointer;              /* ponto de curso */
+          height: 67px;                 /* altura */
+          width: 328px;                 /* largura */
+         }
+         .btn-copiar{      /* botão copiar*/
+            border: 1px solid #0A3871; /* borda */
+            border-radius: 24px;  /* raio da borda */
+            color: #0A3871; /* cor */     
+            cursor: pointer;  /* ponto de curso */
+            height: 67px;      /* altura */
+            margin-left: 108px; /* margem esquerda*/
+            margin-top: 405px; /* margem superior*/
+            position: absolute; /* posiçao  abosuta */
+            width: 336px;       /* largura */
+         }
+         .informaçao{ /* compo informaçao*/
+            color: #495057; /* cor */
+            font-size: 18px;  /* tamanha da fonte */
+         }
